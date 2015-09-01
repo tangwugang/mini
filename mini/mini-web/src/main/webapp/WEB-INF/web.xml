@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>miniDemo</display-name>
+  <listener>
+    <description>Introspector缓存清除监听器</description>
+    <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+  </listener>
+  <listener>
+    <description>request监听器</description>
+    <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+  </listener>
+</web-app>

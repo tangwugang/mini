@@ -1,0 +1,1498 @@
+[INFO][2015-08-21 18:04:01,042][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-21 18:04:03,987][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-21 18:04:04,128][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-21 18:04:04,916][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-21 18:04:06,076][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-21 18:04:19,750][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bm494dt11x2tfa|399bfae6, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bm494dt11x2tfa|399bfae6, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-21 18:04:23,179][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/legendShopManager.java
+[INFO][2015-08-21 18:04:23,179][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/legendShopManager.java 文件创建成功!
+[INFO][2015-08-21 18:04:23,180][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/legendShopManager.java
+[INFO][2015-08-21 18:04:23,226][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/legendShopManagerService.java
+[INFO][2015-08-21 18:04:23,227][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/legendShopManagerService.java 文件创建成功!
+[INFO][2015-08-21 18:04:23,227][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/legendShopManagerService.java
+[INFO][2015-08-21 18:04:23,230][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/legendShopManagerServiceImpl.java
+[INFO][2015-08-21 18:04:23,230][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/legendShopManagerServiceImpl.java 文件创建成功!
+[INFO][2015-08-21 18:04:23,231][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/legendShopManagerServiceImpl.java
+[INFO][2015-08-21 18:04:23,233][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/legendShopManagerDao.java
+[INFO][2015-08-21 18:04:23,234][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/legendShopManagerDao.java 文件创建成功!
+[INFO][2015-08-21 18:04:23,234][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/legendShopManagerDao.java
+[INFO][2015-08-21 18:05:34,212][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/legendShopManager.java
+[INFO][2015-08-21 18:05:34,213][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/legendShopManager.java 文件创建成功!
+[INFO][2015-08-21 18:05:34,214][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/legendShopManager.java
+[INFO][2015-08-21 18:05:34,244][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/legendShopManagerService.java
+[INFO][2015-08-21 18:05:34,244][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/legendShopManagerService.java 文件创建成功!
+[INFO][2015-08-21 18:05:34,245][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/legendShopManagerService.java
+[INFO][2015-08-21 18:05:34,249][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/legendShopManagerServiceImpl.java
+[INFO][2015-08-21 18:05:34,251][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/legendShopManagerServiceImpl.java 文件创建成功!
+[INFO][2015-08-21 18:05:34,251][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/legendShopManagerServiceImpl.java
+[INFO][2015-08-21 18:05:34,255][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/legendShopManagerDao.java
+[INFO][2015-08-21 18:05:34,255][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/legendShopManagerDao.java 文件创建成功!
+[INFO][2015-08-21 18:05:34,256][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/legendShopManagerDao.java
+[INFO][2015-08-21 18:05:34,262][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/legendShopManager.xml
+[INFO][2015-08-21 18:05:34,263][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/legendShopManager.xml 文件创建成功!
+[INFO][2015-08-21 18:05:34,263][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/legendShopManager.xml
+[INFO][2015-08-21 18:15:00,093][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-21 18:15:02,855][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-21 18:15:02,966][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-21 18:15:03,654][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-21 18:15:04,528][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-21 18:15:19,848][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bm4n8r4wqilya|e438657, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bm4n8r4wqilya|e438657, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-21 18:15:23,067][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/legendShopManager.java
+[INFO][2015-08-21 18:15:23,068][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/legendShopManager.java 文件创建成功!
+[INFO][2015-08-21 18:15:23,068][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/legendShopManager.java
+[INFO][2015-08-21 18:15:23,124][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/legendShopManagerService.java
+[INFO][2015-08-21 18:15:23,124][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/legendShopManagerService.java 文件创建成功!
+[INFO][2015-08-21 18:15:23,124][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/legendShopManagerService.java
+[INFO][2015-08-21 18:15:23,128][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/legendShopManagerServiceImpl.java
+[INFO][2015-08-21 18:15:23,129][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/legendShopManagerServiceImpl.java 文件创建成功!
+[INFO][2015-08-21 18:15:23,129][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/legendShopManagerServiceImpl.java
+[INFO][2015-08-21 18:15:23,134][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/legendShopManagerDao.java
+[INFO][2015-08-21 18:15:23,134][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/legendShopManagerDao.java 文件创建成功!
+[INFO][2015-08-21 18:15:23,135][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/legendShopManagerDao.java
+[INFO][2015-08-21 18:15:23,139][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/legendShopManager.xml
+[INFO][2015-08-21 18:15:23,139][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/legendShopManager.xml 文件创建成功!
+[INFO][2015-08-21 18:15:23,140][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/legendShopManager.xml
+[INFO][2015-08-21 18:59:48,030][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-21 18:59:51,068][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-21 18:59:51,205][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-21 18:59:52,145][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-21 18:59:53,133][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-21 19:00:07,469][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bm68v0a30zwwx|4f0aaf3a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bm68v0a30zwwx|4f0aaf3a, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-21 19:00:11,054][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-21 19:00:11,055][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java 文件创建成功!
+[INFO][2015-08-21 19:00:11,055][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-21 19:00:11,117][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java
+[INFO][2015-08-21 19:00:11,118][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java 文件创建成功!
+[INFO][2015-08-21 19:00:11,118][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java
+[INFO][2015-08-21 19:00:11,121][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java
+[INFO][2015-08-21 19:00:11,122][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java 文件创建成功!
+[INFO][2015-08-21 19:00:11,122][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java
+[INFO][2015-08-21 19:00:11,126][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java
+[INFO][2015-08-21 19:00:11,127][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java 文件创建成功!
+[INFO][2015-08-21 19:00:11,127][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java
+[INFO][2015-08-21 19:00:11,155][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml
+[INFO][2015-08-21 19:00:11,156][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml 文件创建成功!
+[INFO][2015-08-21 19:00:11,156][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml
+[INFO][2015-08-21 19:05:45,217][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-21 19:05:47,863][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-21 19:05:47,964][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-21 19:05:48,711][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-21 19:05:49,678][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-21 19:06:23,145][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bm6giac1hcr8lt|62599121, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bm6giac1hcr8lt|62599121, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-21 19:06:24,899][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-21 19:06:24,900][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java 文件创建成功!
+[INFO][2015-08-21 19:06:24,900][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-21 19:06:24,959][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java
+[INFO][2015-08-21 19:06:24,960][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java 文件创建成功!
+[INFO][2015-08-21 19:06:24,960][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java
+[INFO][2015-08-21 19:06:24,964][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java
+[INFO][2015-08-21 19:06:24,964][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java 文件创建成功!
+[INFO][2015-08-21 19:06:24,965][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java
+[INFO][2015-08-21 19:06:24,968][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java
+[INFO][2015-08-21 19:06:24,969][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java 文件创建成功!
+[INFO][2015-08-21 19:06:24,969][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java
+[INFO][2015-08-21 19:06:24,976][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml
+[INFO][2015-08-21 19:06:24,977][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml 文件创建成功!
+[INFO][2015-08-21 19:06:24,977][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml
+[INFO][2015-08-21 19:09:20,854][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-21 19:09:23,746][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-21 19:09:23,886][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-21 19:09:24,767][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-21 19:09:25,888][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-21 19:09:37,032][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bm6l4w2gttsct|763a3d7f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bm6l4w2gttsct|763a3d7f, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-21 19:09:38,549][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-21 19:09:38,551][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java 文件创建成功!
+[INFO][2015-08-21 19:09:38,552][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-21 19:09:38,617][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java
+[INFO][2015-08-21 19:09:38,617][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java 文件创建成功!
+[INFO][2015-08-21 19:09:38,618][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java
+[INFO][2015-08-21 19:09:38,621][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java
+[INFO][2015-08-21 19:09:38,622][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java 文件创建成功!
+[INFO][2015-08-21 19:09:38,622][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java
+[INFO][2015-08-21 19:09:38,626][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java
+[INFO][2015-08-21 19:09:38,627][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java 文件创建成功!
+[INFO][2015-08-21 19:09:38,627][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java
+[INFO][2015-08-21 19:09:38,633][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml
+[INFO][2015-08-21 19:09:38,633][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml 文件创建成功!
+[INFO][2015-08-21 19:09:38,634][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml
+[WARN][2015-08-22 14:43:53,286][com.mchange.v2.async.ThreadPoolAsynchronousRunner]com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@95f706b -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks!
+[WARN][2015-08-22 14:43:53,374][com.mchange.v2.async.ThreadPoolAsynchronousRunner]com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@95f706b -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4481ac4 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@19d53c0e (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@7e59c861 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2)
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@38729915
+Pool thread stack traces:
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+
+
+[INFO][2015-08-24 11:15:13,014][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-24 11:15:15,378][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-24 11:15:15,505][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-24 11:15:16,147][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-24 11:15:16,960][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-24 11:33:50,708][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-24 11:33:53,381][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-24 11:33:53,474][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-24 11:33:54,108][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-24 11:33:54,971][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-24 11:34:30,019][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bq0mwmc1s6mygw|3bd4e6ba, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bq0mwmc1s6mygw|3bd4e6ba, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-24 11:36:04,684][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-24 11:36:04,684][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java 文件创建成功!
+[INFO][2015-08-24 11:36:04,685][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-24 11:37:51,351][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-24 11:37:51,352][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java 文件创建成功!
+[INFO][2015-08-24 11:37:51,352][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/entity/shop/shopManager.java
+[INFO][2015-08-24 11:37:51,376][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java
+[INFO][2015-08-24 11:37:51,377][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java 文件创建成功!
+[INFO][2015-08-24 11:37:51,377][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/shopManagerService.java
+[INFO][2015-08-24 11:37:51,381][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java
+[INFO][2015-08-24 11:37:51,382][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java 文件创建成功!
+[INFO][2015-08-24 11:37:51,382][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/biz/shop/impl/shopManagerServiceImpl.java
+[INFO][2015-08-24 11:37:51,387][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java
+[INFO][2015-08-24 11:37:51,387][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java 文件创建成功!
+[INFO][2015-08-24 11:37:51,388][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/java/com/tqmall/legend/dao/shop/shopManagerDao.java
+[INFO][2015-08-24 11:37:51,398][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml
+[INFO][2015-08-24 11:37:51,398][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml 文件创建成功!
+[INFO][2015-08-24 11:37:51,399][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/shop/shopManager.xml
+[INFO][2015-08-24 12:53:51,351][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-24 12:53:53,810][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-24 12:53:53,911][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-24 12:53:54,561][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-24 12:53:55,415][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-24 12:55:12,585][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bq3hsnt1grn60j|6fdb0d10, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bq3hsnt1grn60j|6fdb0d10, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-24 12:55:14,340][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-24 12:55:14,340][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java 文件创建成功!
+[INFO][2015-08-24 12:55:14,340][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-24 13:19:58,949][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-24 13:20:01,499][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-24 13:20:01,595][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-24 13:20:02,221][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-24 13:20:03,103][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-24 13:23:09,552][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bq4feag1vuph2a|7eed3984, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bq4feag1vuph2a|7eed3984, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-24 13:23:11,104][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-24 13:23:11,105][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java 文件创建成功!
+[INFO][2015-08-24 13:23:11,105][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-24 13:23:11,159][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-24 13:23:11,159][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java 文件创建成功!
+[INFO][2015-08-24 13:23:11,159][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-24 13:23:11,163][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/leged.biz/src/main/java/com/tqmall/legend/biz/twg/impl/shopManagerServiceImpl.java
+[INFO][2015-08-24 13:23:11,163][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/leged.biz/src/main/java/com/tqmall/legend/biz/twg/impl/shopManagerServiceImpl.java 文件创建成功!
+[INFO][2015-08-24 13:23:11,163][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/leged.biz/src/main/java/com/tqmall/legend/biz/twg/impl/shopManagerServiceImpl.java
+[INFO][2015-08-24 13:23:11,167][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/dao/twg/shopManagerDao.java
+[INFO][2015-08-24 13:23:11,167][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/dao/twg/shopManagerDao.java 文件创建成功!
+[INFO][2015-08-24 13:23:11,167][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/dao/twg/shopManagerDao.java
+[INFO][2015-08-24 13:23:11,173][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/resources/mybatis/twg/shopManager.xml
+[INFO][2015-08-24 13:23:11,174][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/resources/mybatis/twg/shopManager.xml 文件创建成功!
+[INFO][2015-08-24 13:23:11,174][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/resources/mybatis/twg/shopManager.xml
+[INFO][2015-08-24 13:24:07,984][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-24 13:24:07,985][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java 文件创建成功!
+[INFO][2015-08-24 13:24:07,985][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-24 13:24:08,012][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-24 13:24:08,013][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java 文件创建成功!
+[INFO][2015-08-24 13:24:08,013][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-24 13:24:08,015][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/impl/shopManagerServiceImpl.java
+[INFO][2015-08-24 13:24:08,015][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/impl/shopManagerServiceImpl.java 文件创建成功!
+[INFO][2015-08-24 13:24:08,015][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/impl/shopManagerServiceImpl.java
+[INFO][2015-08-24 13:24:08,017][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/dao/twg/shopManagerDao.java
+[INFO][2015-08-24 13:24:08,017][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/dao/twg/shopManagerDao.java 文件创建成功!
+[INFO][2015-08-24 13:24:08,018][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/dao/twg/shopManagerDao.java
+[INFO][2015-08-24 13:24:08,020][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/resources/mybatis/twg/shopManager.xml
+[INFO][2015-08-24 13:24:08,021][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/resources/mybatis/twg/shopManager.xml 文件创建成功!
+[INFO][2015-08-24 13:24:08,021][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/resources/mybatis/twg/shopManager.xml
+[INFO][2015-08-27 11:02:47,275][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-27 11:02:49,454][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-27 11:02:49,677][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-27 11:02:50,379][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-27 11:02:51,310][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-27 11:05:57,441][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bu9uigk1qmg801|1d8934e9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bu9uigk1qmg801|1d8934e9, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-27 11:05:58,876][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-27 11:05:58,876][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java 文件创建成功!
+[INFO][2015-08-27 11:05:58,877][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-27 11:05:58,924][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-27 11:05:58,924][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java 文件创建成功!
+[INFO][2015-08-27 11:05:58,924][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-27 11:09:30,295][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-27 11:09:32,115][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-27 11:09:32,185][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-27 11:09:32,735][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-27 11:09:33,523][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-27 11:09:40,267][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bua3536bt9f6n|6dfb8a42, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bua3536bt9f6n|6dfb8a42, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-27 11:09:41,205][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-27 11:09:41,205][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java 文件创建成功!
+[INFO][2015-08-27 11:09:41,206][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-27 11:09:41,403][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[INFO][2015-08-27 11:09:41,403][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java 文件创建成功!
+[INFO][2015-08-27 11:09:41,404][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[INFO][2015-08-27 11:09:41,407][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-27 11:09:41,408][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java 文件创建成功!
+[INFO][2015-08-27 11:09:41,408][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-27 11:23:35,541][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-27 11:23:35,541][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java 文件创建成功!
+[INFO][2015-08-27 11:23:35,542][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-27 11:23:35,569][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[INFO][2015-08-27 11:23:35,569][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java 文件创建成功!
+[INFO][2015-08-27 11:23:35,569][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[INFO][2015-08-27 11:23:35,572][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-27 11:23:35,572][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java 文件创建成功!
+[INFO][2015-08-27 11:23:35,572][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-27 11:23:35,575][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/resources/mybatis/twg/shopManager.xml
+[INFO][2015-08-27 11:23:35,576][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/resources/mybatis/twg/shopManager.xml 文件创建成功!
+[INFO][2015-08-27 11:23:35,576][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/resources/mybatis/twg/shopManager.xml
+[INFO][2015-08-27 11:24:44,446][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-27 11:24:46,256][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-27 11:24:46,337][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-27 11:24:46,876][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-27 11:24:47,539][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-27 11:25:05,088][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9buamqg7di080v|2ab6d9ff, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9buamqg7di080v|2ab6d9ff, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-27 11:25:06,010][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-27 11:25:06,011][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java 文件创建成功!
+[INFO][2015-08-27 11:25:06,011][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[ERROR][2015-08-27 11:25:06,205][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:25:06,242][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+[INFO][2015-08-27 11:25:06,243][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[INFO][2015-08-27 11:25:06,244][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java 文件创建成功!
+[INFO][2015-08-27 11:25:06,244][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[ERROR][2015-08-27 11:25:06,246][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:25:06,250][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+[INFO][2015-08-27 11:25:06,252][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-27 11:25:06,252][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java 文件创建成功!
+[INFO][2015-08-27 11:25:06,252][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[ERROR][2015-08-27 11:25:06,255][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:25:06,262][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+[ERROR][2015-08-27 11:25:06,265][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:25:06,271][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+[INFO][2015-08-27 11:26:30,515][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-27 11:26:30,516][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java 文件创建成功!
+[INFO][2015-08-27 11:26:30,516][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[ERROR][2015-08-27 11:26:30,549][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:26:30,551][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+[INFO][2015-08-27 11:26:30,552][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[INFO][2015-08-27 11:26:30,552][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java 文件创建成功!
+[INFO][2015-08-27 11:26:30,552][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[ERROR][2015-08-27 11:26:30,553][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:26:30,555][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+[INFO][2015-08-27 11:26:30,556][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-27 11:26:30,556][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java 文件创建成功!
+[INFO][2015-08-27 11:26:30,556][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[ERROR][2015-08-27 11:26:30,558][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:26:30,560][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+[ERROR][2015-08-27 11:26:30,562][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:26:30,564][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> id  [in template "mapperTemplate.ftl" at line 49, column 22]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{id}  [in template "mapperTemplate.ftl" at line 49, column 20]
+[INFO][2015-08-27 11:27:44,334][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-27 11:27:46,317][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-27 11:27:46,407][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-27 11:27:46,994][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-27 11:27:47,792][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-27 11:27:55,639][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9buaqle58d23ld|70663a8b, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9buaqle58d23ld|70663a8b, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-27 11:27:56,531][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[INFO][2015-08-27 11:27:56,532][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java 文件创建成功!
+[INFO][2015-08-27 11:27:56,532][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.dal/src/main/java/com/tqmall/legend/entity/twg/shopManager.java
+[ERROR][2015-08-27 11:27:56,718][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> tag  [in template "mapperTemplate.ftl" at line 60, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{tag}  [in template "mapperTemplate.ftl" at line 60, column 9]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:27:56,732][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> tag  [in template "mapperTemplate.ftl" at line 60, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{tag}  [in template "mapperTemplate.ftl" at line 60, column 9]
+[INFO][2015-08-27 11:27:56,733][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[INFO][2015-08-27 11:27:56,734][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java 文件创建成功!
+[INFO][2015-08-27 11:27:56,734][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.web/src/main/java/com/tqmall/legend/web/twg/shopManagerController.java
+[ERROR][2015-08-27 11:27:56,737][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> tag  [in template "mapperTemplate.ftl" at line 60, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{tag}  [in template "mapperTemplate.ftl" at line 60, column 9]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:27:56,743][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> tag  [in template "mapperTemplate.ftl" at line 60, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{tag}  [in template "mapperTemplate.ftl" at line 60, column 9]
+[INFO][2015-08-27 11:27:56,745][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[INFO][2015-08-27 11:27:56,745][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java 文件创建成功!
+[INFO][2015-08-27 11:27:56,746][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/legend/legend.biz/src/main/java/com/tqmall/legend/biz/twg/shopManagerService.java
+[ERROR][2015-08-27 11:27:56,748][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> tag  [in template "mapperTemplate.ftl" at line 60, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{tag}  [in template "mapperTemplate.ftl" at line 60, column 9]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:27:56,754][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> tag  [in template "mapperTemplate.ftl" at line 60, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{tag}  [in template "mapperTemplate.ftl" at line 60, column 9]
+[ERROR][2015-08-27 11:27:56,758][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> tag  [in template "mapperTemplate.ftl" at line 60, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> #{tag}  [in template "mapperTemplate.ftl" at line 60, column 9]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:41)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:24)
+	at freemarker.core.NonNumericalException.<init>(NonNumericalException.java:81)
+	at freemarker.core.Expression.modelToNumber(Expression.java:138)
+	at freemarker.core.Expression.evalToNumber(Expression.java:131)
+	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:92)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor618.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 11:27:56,764][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> tag  [in template "mapperTemplate.ftl" at line 60, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> #{tag}  [in template "mapperTemplate.ftl" at line 60, column 9]
+[INFO][2015-08-27 15:30:50,584][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-27 15:30:52,533][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-27 15:30:52,622][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-27 15:30:53,232][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-27 15:30:54,053][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-27 15:31:47,002][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bujf86reuiofx|72c3370d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bujf86reuiofx|72c3370d, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[ERROR][2015-08-27 15:31:48,163][freemarker.runtime]Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> selectByIdsSql  [in template "mapperTemplate.ftl" at line 47, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> ${selectByIdsSql}  [in template "mapperTemplate.ftl" at line 47, column 9]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:382)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:115)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at cc.ichoice.util.FreemarkerUtil.renderTemplate(FreemarkerUtil.java:25)
+	at cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory.generate(CodeGenerateFactory.java:139)
+	at cc.ichoice2.web.buss.demo.service.impl.DemoServiceImpl.create(DemoServiceImpl.java:65)
+	at cc.ichoice2.web.buss.system.controller.LoginController.save(LoginController.java:43)
+	at sun.reflect.GeneratedMethodAccessor619.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at cc.ichoice.web.servlet.DispatcherServlet.service(DispatcherServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at cc.ichoice.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.__invoke(StandardHostValve.java:171)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2015-08-27 15:31:48,174][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]根据mapper模板生成代码异常,原因为：freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> selectByIdsSql  [in template "mapperTemplate.ftl" at line 47, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction:
+==> ${selectByIdsSql}  [in template "mapperTemplate.ftl" at line 47, column 9]
+[INFO][2015-08-27 15:36:12,032][cc.ichoice.listener.ApplicationStartupListener]======容器监听器初始化======
+[INFO][2015-08-27 15:36:13,937][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO][2015-08-27 15:36:14,023][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO][2015-08-27 15:36:14,618][cc.ichoice.web.filter.CharacterEncodingFilter]=======字符编码过滤器初始化=======
+[INFO][2015-08-27 15:36:15,440][cc.ichoice.web.servlet.DispatcherServlet]servlet容器初始化......
+[INFO][2015-08-27 15:36:24,810][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> true, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2rvxyd9bujm46j1eknbw2|50ece3e6, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2rvxyd9bujm46j1eknbw2|50ece3e6, idleConnectionTestPeriod -> 120, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://121.199.28.244:3306/dev_legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 500, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO][2015-08-27 15:36:25,854][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]--------成功删除文件---------/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/twg/shopManager.xml
+[INFO][2015-08-27 15:36:25,854][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/twg/shopManager.xml 文件创建成功!
+[INFO][2015-08-27 15:36:25,855][cc.ichoice.minidao.codegenerate.factory.CodeGenerateFactory]自动生成文件成功存放路径：/Users/twg/workspace/mini/mini-web/src/main/resources/mybatis/twg/shopManager.xml
+[WARN][2015-08-28 08:45:47,917][com.mchange.v2.async.ThreadPoolAsynchronousRunner]com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@4054302b -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks!
+[WARN][2015-08-28 08:45:48,038][com.mchange.v2.async.ThreadPoolAsynchronousRunner]com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@4054302b -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3182d65e (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4c7ceb7 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@59d452d4 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1)
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@28a0a5f
+Pool thread stack traces:
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+
+
+[WARN][2015-08-28 08:45:57,638][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3182d65e -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor1534.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1127)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:356)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor1031.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:241)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	... 18 more
+[WARN][2015-08-28 08:45:57,638][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4c7ceb7 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor1534.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1127)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:356)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor1031.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:241)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	... 18 more
+[ERROR][2015-08-28 08:45:57,670][com.mchange.v2.resourcepool.BasicResourcePool]A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@4c7ceb7]
+[WARN][2015-08-28 08:45:57,638][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@59d452d4 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor1534.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1127)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:356)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor1031.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:241)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	... 18 more
+[ERROR][2015-08-28 08:45:57,671][com.mchange.v2.resourcepool.BasicResourcePool]A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@59d452d4]
+[WARN][2015-08-28 08:45:57,685][com.mchange.v2.lang.VersionUtils]java.version ''1.7.0_80-ea'' could not be parsed. Defaulting to JDK 1.1.
+[ERROR][2015-08-28 08:45:57,670][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool@6011b2a1 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+[ERROR][2015-08-28 08:45:57,668][com.mchange.v2.resourcepool.BasicResourcePool]A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3182d65e]
+[ERROR][2015-08-28 08:45:57,686][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool@6011b2a1 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+[WARN][2015-08-28 08:45:57,686][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool@6011b2a1 -- close() called multiple times.
+[ERROR][2015-08-28 08:45:57,687][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool@6011b2a1 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+[WARN][2015-08-28 08:45:57,687][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool@6011b2a1 -- close() called multiple times.
+[WARN][2015-08-28 08:46:17,808][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@28a0a5f -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor1534.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1127)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:356)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor1031.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:241)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	... 18 more
+[ERROR][2015-08-28 08:46:17,810][com.mchange.v2.resourcepool.BasicResourcePool]A RESOURCE POOL IS PERMANENTLY BROKEN! [com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@28a0a5f]
+[ERROR][2015-08-28 08:46:17,810][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool@6011b2a1 -- Unexpectedly broken!!!
+com.mchange.v2.resourcepool.ResourcePoolException: Unexpected Break Stack Trace!
+	at com.mchange.v2.resourcepool.BasicResourcePool.unexpectedBreak(BasicResourcePool.java:866)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$1100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1854)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+[WARN][2015-08-28 08:46:17,811][com.mchange.v2.resourcepool.BasicResourcePool]com.mchange.v2.resourcepool.BasicResourcePool@6011b2a1 -- close() called multiple times.
