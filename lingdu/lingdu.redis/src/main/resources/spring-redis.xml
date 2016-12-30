@@ -23,6 +23,7 @@
         <constructor-arg index="0" value="${redis.host}" />
         <constructor-arg index="1" value="6379" type="int" />
         <property name="password" value="${redis.password}"/>
+        <property name="connectionTimeout" value="${redis.timeout}"/>
     </bean>
 
     <bean id="jedisShardInfo6479" class="redis.clients.jedis.JedisShardInfo">
@@ -41,8 +42,18 @@
         </constructor-arg>
     </bean>-->
 
+    <bean id="masterJedisPool" class="redis.clients.jedis.JedisPool">
+        <constructor-arg index="0" ref="jedisPoolConfig" />
+        <constructor-arg index="1" value="${redis.host}"/>
+        <constructor-arg index="2" value="${redis.port}"/>
+        <constructor-arg index="3" value="${redis.timeout}"/>
+        <constructor-arg index="4" value="${redis.password}"/>
+        <constructor-arg index="5" value="${redis.database}"/>
+    </bean>
+
     <!--配置自定义的redis链接，可以分为主、从-->
-    <bean id="redisDataSourceFactory" class="com.sanweibook.lingdu.redis.factory.RedisDataSourceFactory" destroy-method="destroy">
+    <bean id="redisDataSourceFactory" class="com.sanweibook.lingdu.redis.factory.RedisDataSourceFactory">
+        <property name="dbIndex" value="${redis.database}"/>
         <property name="poolConfig" ref="jedisPoolConfig"/>
         <property name="shardInfo" ref="jedisShardInfo6379"/>
     </bean>
@@ -55,13 +66,14 @@
     <!-- Redis连接 -->
     <bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
         <property name="shardInfo" ref="jedisShardInfo6379"/>
+        <property name="database" value="1"/>
         <property name="poolConfig" ref="jedisPoolConfig"/>
         <property name="usePool" value="true"/>
     </bean>
 
     <!-- 缓存序列化方式 -->
     <bean id="keySerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer" />
-    <bean id="valueSerializer" class="org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer" />
+    <bean id="valueSerializer" class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
 
     <!-- 缓存 -->
     <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">

@@ -20,49 +20,52 @@ package com.sanweibook.lingdu.redis.factory;
 
 import com.sanweibook.lingdu.redis.dataSource.RedisDataSource;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.InitializingBean;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.JedisShardInfo;
-import redis.clients.jedis.exceptions.JedisException;
 
 /**
  * Created by twg on 16/11/3.
  */
 @Slf4j
-public class RedisDataSourceFactory implements RedisDataSource {
-
+public class RedisDataSourceFactory implements RedisDataSource,InitializingBean {
+    private int dbIndex = 0;
     private JedisPool jedisPool;
-
-    private Jedis jedis;
-
     private JedisShardInfo shardInfo;
-
     private JedisPoolConfig poolConfig = new JedisPoolConfig();
 
 
     @Override
     public Jedis getDataSource() {
-        jedisPool = new JedisPool(poolConfig, shardInfo.getHost(), shardInfo.getPort(), shardInfo.getConnectionTimeout(), shardInfo.getPassword());
-        if (jedisPool == null) {
-            log.error("JedisPool property cannot be null.");
-            throw new JedisException("JedisPool property cannot be null");
+        if (jedisPool != null) {
+            return jedisPool.getResource();
         }
-        try {
-            jedis = jedisPool.getResource();
-            if (log.isInfoEnabled()) {
-                log.info("Jedis property get success");
-            }
-        } catch (JedisException exception) {
-            log.error("Jedis property cannot be null.", exception);
-            throw new JedisException(exception);
+        Jedis jedis = new Jedis(getShardInfo());
+        jedis.connect();
+        if (dbIndex > 0) {
+            jedis.select(dbIndex);
         }
         return jedis;
     }
 
     @Override
-    public void closeResource(Jedis jedis) {
-        destroy();
+    public void closeResource(Jedis jedis,boolean broken) {
+        if(jedisPool != null){
+            if(broken){
+                if (dbIndex > 0) {
+                    jedis.select(0);
+                }
+                jedisPool.returnResource(jedis);
+                return;
+            }else {
+                jedisPool.returnBrokenResource(jedis);
+                return;
+            }
+        }
+        jedis.quit();
+        jedis.disconnect();
     }
 
     @Override
@@ -72,6 +75,15 @@ public class RedisDataSourceFactory implements RedisDataSource {
         }
     }
 
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        this.jedisPool = new JedisPool(getPoolConfig(), getShardInfo().getHost(), getShardInfo().getPort(),
+                getShardInfo().getConnectionTimeout(), getShardInfo().getPassword(),dbIndex);
+    }
+
+    public JedisShardInfo getShardInfo() {
+        return shardInfo;
+    }
 
     public void setShardInfo(JedisShardInfo shardInfo) {
         this.shardInfo = shardInfo;
@@ -81,4 +93,11 @@ public class RedisDataSourceFactory implements RedisDataSource {
         this.poolConfig = poolConfig;
     }
 
+    public JedisPoolConfig getPoolConfig() {
+        return poolConfig;
+    }
+
+    public void setDbIndex(int dbIndex) {
+        this.dbIndex = dbIndex;
+    }
 }

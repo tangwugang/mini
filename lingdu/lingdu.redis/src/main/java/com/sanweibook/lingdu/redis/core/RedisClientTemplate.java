@@ -51,7 +51,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -79,7 +79,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -106,7 +106,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -134,7 +134,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -160,7 +160,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -186,7 +186,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -212,7 +212,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -236,7 +236,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -260,7 +260,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -284,7 +284,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -309,7 +309,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -335,7 +335,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -359,7 +359,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return value;
     }
@@ -383,7 +383,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return value;
     }
@@ -408,7 +408,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -431,7 +431,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -455,7 +455,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return value;
     }
@@ -479,7 +479,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return values;
     }
@@ -503,7 +503,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return values;
     }
@@ -529,7 +529,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -555,7 +555,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -580,7 +580,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return status;
     }
@@ -606,7 +606,7 @@ public class RedisClientTemplate {
             }
             throw jedisException;
         } finally {
-            redisDataSource.closeResource(shardedJedis);
+            redisDataSource.closeResource(shardedJedis,broken);
         }
         return values;
     }
@@ -645,5 +645,6 @@ public class RedisClientTemplate {
     public void setRedisDataSource(RedisDataSource redisDataSource) {
         this.redisDataSource = redisDataSource;
     }
+
 
 }

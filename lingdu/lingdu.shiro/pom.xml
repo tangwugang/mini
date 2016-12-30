@@ -52,6 +52,10 @@
             <groupId>com.sanweibook</groupId>
             <artifactId>lingdu.redis</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+        </dependency>
         <!--<dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>

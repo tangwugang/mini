@@ -55,6 +55,10 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.sanweibook</groupId>
+            <artifactId>lingdu.common</artifactId>
+        </dependency>
     </dependencies>
 
 

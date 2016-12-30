@@ -2,7 +2,9 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
 
     <!--加载shiro的自定义配置文件-->
     <context:property-placeholder order="10" ignore-unresolvable="true" location="classpath:shiro.properties"/>
@@ -16,6 +18,7 @@
         <property name="authorizationCachingEnabled" value="true"/>
     </bean>
 
+    <!--加密方式-->
     <bean id="userCredentialsMatcher" class="com.sanweibook.lingdu.shiro.web.filter.authc.UserCredentialsMatcher">
         <property name="hashAlgorithmName" value="md5"/>
         <property name="hashIterations" value="2"/>
@@ -58,7 +61,7 @@
         <!--配置登录成功后请求URL-->
         <property name="successUrl" value="/admin/home.html"/>
         <!--配置请求不在权限范围内的跳转请求URL-->
-        <property name="unauthorizedUrl" value="/403"/>
+        <property name="unauthorizedUrl" value="/error/404.html"/>
         <!--可以配置自定义的过滤器，
         public enum DefaultFilter {
             anon(AnonymousFilter.class),
@@ -83,6 +86,7 @@
             <value>
                 <!--静态资源不需要权限认证-->
                 /resources/**=anon
+                /error/**=anon
                 /logout=logout
                 /admin/home.html=authc,roles[admin]
                 /**=authc
@@ -114,7 +118,6 @@
 
     <!-- shiro生命周期处理器-->
     <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"></bean>
-
 
 
 </beans>

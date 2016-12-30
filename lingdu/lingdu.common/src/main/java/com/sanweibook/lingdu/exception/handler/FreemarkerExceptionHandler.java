@@ -1,4 +1,4 @@
-package com.sanweibook.lingdu.exception;
+package com.sanweibook.lingdu.exception.handler;
 
 import freemarker.core.Environment;
 import freemarker.template.TemplateException;

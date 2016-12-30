@@ -19,7 +19,6 @@
 package com.sanweibook.lingdu.redis.dataSource;
 
 import redis.clients.jedis.Jedis;
-import redis.clients.jedis.ShardedJedis;
 import redis.clients.jedis.exceptions.JedisException;
 
 /**
@@ -32,11 +31,8 @@ public interface RedisDataSource {
      */
     Jedis getDataSource() throws JedisException;
     /**
-     *
-     * @param shardedJedis
-     * @param broken true 是否断开资源
      */
-    void closeResource(final Jedis jedis);
+    void closeResource(final Jedis jedis,boolean broken);
 
     void destroy();
 

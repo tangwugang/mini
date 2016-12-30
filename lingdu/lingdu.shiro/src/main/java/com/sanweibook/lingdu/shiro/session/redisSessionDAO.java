@@ -50,6 +50,7 @@ public class redisSessionDAO extends AbstractSessionDAO {
     protected Serializable doCreate(Session session) {
         Serializable sessionId = this.generateSessionId(session);
         this.assignSessionId(session, sessionId);
+        session.setTimeout(sessionTomeOut);
         try {
             redisClientTemplate.setEX(getKeyByte(sessionId), SerializationUtils.serialize(session), sessionTomeOut/1000);
         } catch (UnsupportedEncodingException e) {

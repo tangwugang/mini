@@ -31,9 +31,18 @@
         </constructor-arg>
     </bean>
 
+    <bean id="masterJedisPool" class="redis.clients.jedis.JedisPool">
+        <constructor-arg index="0" ref="jedisPoolConfig" />
+        <constructor-arg index="1" value="${redis.host}"/>
+        <constructor-arg index="2" value="${redis.port}"/>
+        <constructor-arg index="3" value="${redis.timeout}"/>
+        <constructor-arg index="4" value="${redis.password}"/>
+        <constructor-arg index="5" value="${redis.database}"/>
+    </bean>
+
     <!--配置自定义的redis链接，可以分为主、从-->
     <bean id="redisDataSourceFactory" class="com.sanweibook.lingdu.redis.factory.RedisDataSourceFactory">
-        <property name="shardedJedisPool" ref="shardedJedisPool"/>
+        <property name="jedisPool" ref="masterJedisPool"/>
     </bean>
     <bean id="RedisClientTemplate" class="com.sanweibook.lingdu.redis.core.RedisClientTemplate">
         <property name="redisDataSource" ref="redisDataSourceFactory"/>
