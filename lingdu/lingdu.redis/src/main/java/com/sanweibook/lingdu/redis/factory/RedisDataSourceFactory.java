@@ -25,12 +25,15 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.JedisShardInfo;
+import redis.clients.jedis.exceptions.JedisConnectionException;
+import redis.clients.jedis.exceptions.JedisDataException;
+import redis.clients.jedis.exceptions.JedisException;
 
 /**
  * Created by twg on 16/11/3.
  */
 @Slf4j
-public class RedisDataSourceFactory implements RedisDataSource,InitializingBean {
+public class RedisDataSourceFactory implements RedisDataSource, InitializingBean {
     private int dbIndex = 0;
     private JedisPool jedisPool;
     private JedisShardInfo shardInfo;
@@ -51,21 +54,26 @@ public class RedisDataSourceFactory implements RedisDataSource,InitializingBean 
     }
 
     @Override
-    public void closeResource(Jedis jedis,boolean broken) {
-        if(jedisPool != null){
-            if(broken){
-                if (dbIndex > 0) {
-                    jedis.select(0);
+    public void closeResource(Jedis jedis, boolean broken) {
+        try {
+            if (jedisPool != null) {
+                if (broken) {
+                    jedisPool.returnResource(jedis);
+                    return;
+                } else {
+                    jedisPool.returnBrokenResource(jedis);
+                    return;
                 }
-                jedisPool.returnResource(jedis);
-                return;
-            }else {
-                jedisPool.returnBrokenResource(jedis);
-                return;
             }
+            jedis.quit();
+            jedis.disconnect();
+        }catch (JedisDataException dataE){
+            log.error("Jedis quit error.",dataE);
+        }catch (JedisConnectionException connectE){
+            log.error("Jedis disconnect error.",connectE);
+        }catch (JedisException e){
+            log.error("JedisPool returnResource error.",e);
         }
-        jedis.quit();
-        jedis.disconnect();
     }
 
     @Override
@@ -77,8 +85,7 @@ public class RedisDataSourceFactory implements RedisDataSource,InitializingBean 
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        this.jedisPool = new JedisPool(getPoolConfig(), getShardInfo().getHost(), getShardInfo().getPort(),
-                getShardInfo().getConnectionTimeout(), getShardInfo().getPassword(),dbIndex);
+        this.jedisPool = new JedisPool(getPoolConfig(), getShardInfo().getHost(), getShardInfo().getPort(), getShardInfo().getConnectionTimeout(), getShardInfo().getPassword(), dbIndex);
     }
 
     public JedisShardInfo getShardInfo() {
