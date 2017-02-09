@@ -32,34 +32,15 @@
         <property name="password" value="${redis.password}"/>
     </bean>
 
-    <!--<bean id="shardedJedisPool" class="redis.clients.jedis.ShardedJedisPool">
-        <constructor-arg index="0" ref="jedisPoolConfig" />
-        <constructor-arg index="1">
-            <list>
-                <ref bean="jedisShardInfo6379" />
-                <ref bean="jedisShardInfo6479" />
-            </list>
-        </constructor-arg>
-    </bean>-->
-
-    <bean id="masterJedisPool" class="redis.clients.jedis.JedisPool">
-        <constructor-arg index="0" ref="jedisPoolConfig" />
-        <constructor-arg index="1" value="${redis.host}"/>
-        <constructor-arg index="2" value="${redis.port}"/>
-        <constructor-arg index="3" value="${redis.timeout}"/>
-        <constructor-arg index="4" value="${redis.password}"/>
-        <constructor-arg index="5" value="${redis.database}"/>
-    </bean>
-
     <!--配置自定义的redis链接，可以分为主、从-->
-    <bean id="redisDataSourceFactory" class="com.sanweibook.lingdu.redis.factory.RedisDataSourceFactory">
+    <bean id="redisDataSource" class="com.sanweibook.lingdu.redis.factory.RedisDataSourceFactory" destroy-method="destroy">
         <property name="dbIndex" value="${redis.database}"/>
         <property name="poolConfig" ref="jedisPoolConfig"/>
         <property name="shardInfo" ref="jedisShardInfo6379"/>
     </bean>
 
     <bean id="redisClientTemplate" class="com.sanweibook.lingdu.redis.core.RedisClientTemplate">
-        <property name="redisDataSource" ref="redisDataSourceFactory"/>
+        <property name="redisDataSource" ref="redisDataSource"/>
         <property name="expiration" value="${redis.expiration}"/>
     </bean>
 

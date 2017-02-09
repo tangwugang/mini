@@ -1,7 +1,7 @@
 package com.sanweibook.lingdu.shiro.realm;
 
-import com.beust.jcommander.internal.Sets;
 import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
 import com.sanweibook.lingdu.shiro.util.ByteSourceUtil;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;

@@ -470,27 +470,33 @@
                         <a target='_blank' title="美国知名孵化器YC到创业大街探访中国创新市场" href="http://z-innoway.com/index.php?app=web&m=Article&a=detail&id=2529">
                             <div class="adaptive-img" style="background: url(http://z-innoway.com/data/uploads/2016/1207/08/58475adf893cf.png) center / cover no-repeat"></div>
                         </a>
-                    </div><div class="item ">
+                    </div>
+                    <div class="item ">
                     <a target='_blank' title="创业大街再次迎来国际团队" href="http://z-innoway.com/index.php?app=web&m=Article&a=detail&id=2528">
                         <div class="adaptive-img" style="background: url(http://z-innoway.com/data/uploads/2016/1206/15/584664961a1e0.png) center / cover no-repeat"></div>
                     </a>
-                </div><div class="item ">
+                    </div>
+                    <div class="item ">
                     <a target='_blank' title="中关村创业大街首届手机摄影大赛报名啦！" href="http://z-innoway.com/index.php?app=web&m=Article&a=detail&id=2509">
                         <div class="adaptive-img" style="background: url(http://z-innoway.com/data/uploads/2016/1125/16/5837ef895a2d3.png) center / cover no-repeat"></div>
                     </a>
-                </div><div class="item ">
+                    </div>
+                    <div class="item ">
                     <a target='_blank' title="【中关村创新创业季2016】Demo The World全球创新路演精彩回顾" href="http://z-innoway.com/index.php?app=web&m=Article&a=detail&id=2474">
                         <div class="adaptive-img" style="background: url(http://z-innoway.com/data/uploads/2016/1020/15/580875dc4606e.jpg) center / cover no-repeat"></div>
                     </a>
-                </div><div class="item ">
+                    </div>
+                    <div class="item ">
                     <a target='_blank' title="【中关村创新创业季2016】因果树图灵——全球首个人工智能投顾产品发布" href="http://z-innoway.com/index.php?app=web&m=Article&a=detail&id=2473">
                         <div class="adaptive-img" style="background: url(http://z-innoway.com/data/uploads/2016/1020/09/58081ccb41f34.jpg) center / cover no-repeat"></div>
                     </a>
-                </div><div class="item ">
+                    </div>
+                    <div class="item ">
                     <a target='_blank' title="【中关村创新创业季2016】黑马公开课——当代中关村与百年硅谷发展论坛成功举办" href="http://z-innoway.com/index.php?app=web&m=Article&a=detail&id=2472">
                         <div class="adaptive-img" style="background: url(http://z-innoway.com/data/uploads/2016/1020/09/58081c7f38e18.jpg) center / cover no-repeat"></div>
                     </a>
-                </div>                </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -819,13 +825,6 @@
     <!--row-->
 </div>
 <!--container-->
-<#--<div class="container">
-    <h2>合作企业</h2>
-    <div class="row" style="margin-right: -5px; margin-left: -5px">
-
-    </div>
-
-</div>-->
 
 <div class="footers">
 

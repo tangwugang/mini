@@ -13,7 +13,7 @@ $(function() {
             "normal",
             function() {
                 e.css({
-                    "margin-top": "-125px",
+                    "margin-tuserop": "-125px",
                     display: "none"
                 }),
                     i = !0
