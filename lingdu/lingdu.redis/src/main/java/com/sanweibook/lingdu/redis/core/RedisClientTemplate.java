@@ -97,7 +97,7 @@ public class RedisClientTemplate {
      */
     public <T> T get(T key){
         Assert.notNull(key,"not null key required");
-        return new RedisClientExecute<T>(redisDataSource).execute(key);
+        return new RedisClientExecute<T>(redisDataSource).get(key);
     }
 
     /**

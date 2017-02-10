@@ -6,26 +6,26 @@ import java.util.Set;
 /**
  * Created by twg on 17/2/9.
  */
-public interface RedisClientCallBack {
+public interface RedisClientCallBack<T> {
 
-    <T> T execute(T key);
+    T get(T key);
 
-    <T> boolean exists(T key);
+    boolean exists(T key);
 
-    <T> Long del(T key);
+    Long del(T key);
 
-    <T> Set<T> hKeys(T key);
+    Set<T> hKeys(T key);
 
-    <T> List<T> hVals(T key);
+    List<T> hVals(T key);
 
-    <T> Long expire(T key, int second);
+    Long expire(T key, int second);
 
-    <T> T getSet(T key, T value);
+    T getSet(T key, T value);
 
-    <T> Long hSet(T key, T field, T value);
+    Long hSet(T key, T field, T value);
 
-    <T> String setEX(T key, T value, int second);
+    String setEX(T key, T value, int second);
 
-    <T> Long setRange(T key, Long offset, T value);
+    Long setRange(T key, Long offset, T value);
 
 }

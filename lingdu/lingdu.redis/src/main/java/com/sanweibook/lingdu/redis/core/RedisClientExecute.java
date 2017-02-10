@@ -15,18 +15,15 @@ import java.util.Set;
  * Created by twg on 17/2/9.
  */
 @Slf4j
-public class RedisClientExecute<T> implements RedisClientCallBack {
+public class RedisClientExecute<T> implements RedisClientCallBack<T> {
     private RedisDataSource redisDataSource;
-
-    public RedisClientExecute() {
-    }
 
     public RedisClientExecute(RedisDataSource redisDataSource) {
         this.redisDataSource = redisDataSource;
     }
 
     @Override
-    public <T> T execute(T key) {
+    public T get(T key) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
@@ -48,7 +45,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
     }
 
     @Override
-    public <T> boolean exists(T key) {
+    public boolean exists(T key) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
@@ -70,7 +67,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
     }
 
     @Override
-    public <T> Long del(T key) {
+    public Long del(T key) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
@@ -92,7 +89,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
     }
 
     @Override
-    public <T> Set<T> hKeys(T key) {
+    public Set<T> hKeys(T key) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
@@ -114,7 +111,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
     }
 
     @Override
-    public <T> List<T> hVals(T key) {
+    public List<T> hVals(T key) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
@@ -136,7 +133,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
     }
 
     @Override
-    public <T> Long expire(T key, int second) {
+    public Long expire(T key, int second) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
@@ -146,7 +143,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
                 return jedis.expire((byte[]) key, second);
             }
         } catch (JedisException jedisException) {
-            log.error("执行RedisClientTemplate.hVals方法时异常：", jedisException);
+            log.error("执行RedisClientTemplate.expire方法时异常：", jedisException);
             if (jedisException instanceof JedisDataException) {
                 broken = false;
             }
@@ -158,7 +155,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
     }
 
     @Override
-    public <T> String setEX(T key, T value, int second) {
+    public String setEX(T key, T value, int second) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
@@ -180,7 +177,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
     }
 
     @Override
-    public <T> T getSet(T key, T value) {
+    public T getSet(T key, T value) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
@@ -202,7 +199,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
     }
 
     @Override
-    public <T> Long hSet(T key, T field, T value) {
+    public Long hSet(T key, T field, T value) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
@@ -224,7 +221,7 @@ public class RedisClientExecute<T> implements RedisClientCallBack {
     }
 
     @Override
-    public <T> Long setRange(T key, Long offset, T value) {
+    public Long setRange(T key, Long offset, T value) {
         Jedis jedis = redisDataSource.getDataSource();
         boolean broken = true;
         try {
