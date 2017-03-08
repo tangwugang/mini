@@ -69,41 +69,42 @@ public class RedisCache<K, V> implements Cache<K, V> {
     }
 
     @Override
-    public V get(K key) throws CacheException {
+    public V get(K key) {
         if (key == null) {
             throw new IllegalArgumentException("key cannot be null");
         }
         V value = null;
         try {
-            value = (V) SerializationUtils.deserialize(redisClientTemplate.get(getKeyByte(key)));
+            value = (V) SerializationUtils.deserialize((byte[]) redisClientTemplate.get(getKeyByte(key)));
         } catch (UnsupportedEncodingException e) {
             log.error("The key: {} ,Get bytes is error", key, e);
-        }
-        return value;
-    }
-
-    @Override
-    public V put(K key, V value) throws CacheException {
-        try {
-            redisClientTemplate.setEX(getKeyByte(key), SerializationUtils.serialize(value), redisClientTemplate.getExpiration());
-        } catch (Throwable e) {
             throw new CacheException(e);
         }
         return value;
     }
 
     @Override
-    public V remove(K key) throws CacheException {
+    public V put(K key, V value) {
+        try {
+            redisClientTemplate.setEX(getKeyByte(key), SerializationUtils.serialize(value), redisClientTemplate.getExpiration());
+        } catch (Exception e) {
+            throw new CacheException(e);
+        }
+        return value;
+    }
+
+    @Override
+    public V remove(K key) {
         try {
             redisClientTemplate.del(getKeyByte(key));
-        } catch (Throwable e) {
+        } catch (Exception e) {
             throw new CacheException(e);
         }
         return get(key);
     }
 
     @Override
-    public void clear() throws CacheException {
+    public void clear() {
         log.info("This is redisCache clear()");
     }
 
@@ -119,10 +120,9 @@ public class RedisCache<K, V> implements Cache<K, V> {
         try {
             Set<byte[]> v = redisClientTemplate.hKeys(getKeyByte((K) (prefixKey + "*")));
             for (byte[] key : v) {
-                K value = (K) SerializationUtils.deserialize(key);
                 values.add((K) key);
             }
-        } catch (Throwable e) {
+        } catch (Exception e) {
             throw new CacheException(e);
         }
         return values;
@@ -134,10 +134,10 @@ public class RedisCache<K, V> implements Cache<K, V> {
         try {
             Set<byte[]> v = redisClientTemplate.hKeys(getKeyByte((K) (prefixKey + "*")));
             for (byte[] key : v) {
-                V value = (V) SerializationUtils.deserialize(redisClientTemplate.get(key));
+                V value = (V) SerializationUtils.deserialize((byte[]) redisClientTemplate.get(key));
                 values.add((V) value);
             }
-        } catch (Throwable e) {
+        } catch (Exception e) {
             throw new CacheException(e);
         }
         return values;

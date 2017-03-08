@@ -40,7 +40,7 @@
     </bean>
 
     <bean id="redisClientTemplate" class="com.sanweibook.lingdu.redis.core.RedisClientTemplate">
-        <property name="redisDataSource" ref="redisDataSource"/>
+        <constructor-arg ref="redisDataSource"></constructor-arg>
         <property name="expiration" value="${redis.expiration}"/>
     </bean>
 

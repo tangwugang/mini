@@ -57,7 +57,7 @@ public class RedisDataSourceFactory implements RedisDataSource, InitializingBean
     public void closeResource(Jedis jedis, boolean broken) {
         try {
             if (jedisPool != null) {
-                if (broken) {
+                if (!broken) {
                     jedisPool.returnResource(jedis);
                     return;
                 } else {

@@ -62,7 +62,7 @@ public class redisSessionDAO extends AbstractSessionDAO {
     @Override
     protected Session doReadSession(Serializable sessionId) {
         try {
-            byte[] bytes = redisClientTemplate.get(getKeyByte(sessionId));
+            byte[] bytes = (byte[]) redisClientTemplate.get(getKeyByte(sessionId));
             if(bytes == null){
                 return null;
             }
@@ -109,7 +109,7 @@ public class redisSessionDAO extends AbstractSessionDAO {
         }
         Set<byte[]> v = redisClientTemplate.hKeys(key);
         for (byte[] k : v) {
-            Session session = (Session) SerializationUtils.deserialize(redisClientTemplate.get(k));
+            Session session = (Session) SerializationUtils.deserialize((byte[]) redisClientTemplate.get(k));
             sessions.add(session);
         }
         return sessions;

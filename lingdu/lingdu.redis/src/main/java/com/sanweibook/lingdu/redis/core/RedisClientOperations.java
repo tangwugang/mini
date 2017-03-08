@@ -16,24 +16,39 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.sanweibook.lingdu.redis.dataSource;
+package com.sanweibook.lingdu.redis.core;
 
-import redis.clients.jedis.Jedis;
+import java.util.List;
+import java.util.Set;
 
 /**
- * Created by twg on 16/11/3.
+ * Created by twg on 17/2/9.
  */
-public interface RedisDataSource {
-    /**
-     *
-     * @return
-     */
-    Jedis getDataSource();
-    /**
-     */
-    void closeResource(final Jedis jedis,boolean broken);
+public interface RedisClientOperations<T> {
 
-    void destroy();
+    T get(T key);
+
+    Long del(T key);
+
+    Set<T> hKeys(T key);
+
+    List<T> hVals(T key);
+
+    List<T> lRange(T key);
+
+    boolean exists(T key);
+
+    T getSet(T key, T value);
+
+    Long expire(T key, int second);
+
+    Long rPush(T key,List<T> values);
+
+    Long hSet(T key, T field, T value);
+
+    String setEX(T key, T value, int second);
+
+    Long setRange(T key, Long offset, T value);
 
 
 }

@@ -42,10 +42,13 @@
 
     <!--配置自定义的redis链接，可以分为主、从-->
     <bean id="redisDataSourceFactory" class="com.sanweibook.lingdu.redis.factory.RedisDataSourceFactory">
-        <property name="jedisPool" ref="masterJedisPool"/>
+        <property name="dbIndex" value="${redis.database}"/>
+        <property name="poolConfig" ref="jedisPoolConfig"/>
+        <property name="shardInfo" ref="jedisShardInfo"/>
     </bean>
     <bean id="RedisClientTemplate" class="com.sanweibook.lingdu.redis.core.RedisClientTemplate">
-        <property name="redisDataSource" ref="redisDataSourceFactory"/>
+        <!--<property name="redisDataSource" ref="redisDataSourceFactory"/>-->
+        <constructor-arg ref="redisDataSourceFactory"></constructor-arg>
         <property name="expiration" value="10000"/>
     </bean>
 

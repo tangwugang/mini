@@ -1,0 +1,2 @@
+http\://www.tqmall.com/schema/mysql=com.sanweibook.lingdu.mysql.config.MySqlNamespaceHandler
+http\://www.tqmall.com/schema/enum=com.sanweibook.lingdu.mysql.config.MySqlNamespaceHandler

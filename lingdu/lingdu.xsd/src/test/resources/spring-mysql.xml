@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mysql="http://www.tqmall.com/schema/mysql"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.tqmall.com/schema/mysql
+       http://www.tqmall.com/schema/mysql/mysql-1.0.xsd">
+
+    <mysql:datasource id="datasource" driver-class-name="com.mysql.jdbc.Driver" password="st4Ukp6Bs" url="jdbc:mysql://121.40.87.101:3306/legend?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull" username="yun_rw_all"/>
+
+</beans>

@@ -13,7 +13,7 @@ public class RedisClientTemplateTest {
     public void testRedisTemplate(){
         ClassPathXmlApplicationContext pathXmlApplicationContext = new ClassPathXmlApplicationContext("spring-redis-test.xml");
         RedisClientTemplate redisClientTemplate = (RedisClientTemplate)pathXmlApplicationContext.getBean("RedisClientTemplate");
-        String v = redisClientTemplate.getSet("twg03","灌灌灌灌");
+        String v = (String) redisClientTemplate.getSet("twg03","灌灌灌灌");
         System.out.println(v);
         /*for (int i = 0; i < 10000; i++) {
             String status1 = redisClientTemplate.setEX("twg"+i, "1234",100000);
